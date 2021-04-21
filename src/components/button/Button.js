@@ -3,6 +3,6 @@ import './Button.css'
 
 export default class Button extends Component {
   render(props) {
-    return (<button type='submit' className="estilo">{this.props.valor}</button>)
+    return (<button type='submit' className="button">{this.props.valor}</button>)
   }
 }
