@@ -1,22 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 import Botao from './components/button/Button';
 import Input from './components/input/Input'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Painel de Login React-TV</h1>
-        
-        <h3>Digite seu Login</h3>
-          <Input placeholder="Digite seu login..."/>
-        <h3>Digite sua Senha</h3>
-          <Input placeholder="Digite sua senha..."/>
-          <Botao valor="Login" />
-          <p>Não tem uma conta? <a href="/registro">Registre-se</a></p>
-        <h3>Desenvolvido por Wallace Alberto</h3>
-      </header>
+    <div className="body">
+      <h2>React-flix</h2><br />
+      <div className="formBG">
+        <div className="form">
+        <h1>Entrar</h1>
+        <Input placeholder="Email ou número de telefone"/>
+        <br />
+        <Input placeholder="Senha"/>
+        <br /><br />
+        <Botao valor="Entrar" />
+        </div>
+        <p>Não tem cadastro? <a href="/cadastro">Cadastre-se</a></p>
+      </div>
     </div>
   );
 }

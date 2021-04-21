@@ -1,8 +1,9 @@
-.input{
-    border-top: 0px;
+.input{  
+    outline: none !important;
+    margin-top: 10px;
     border-radius: 10px;
-    height: 30px;
-    background-color: black;
-    color: greenyellow;
-
+    height: 45px;
+    width: 100%;
+    background-color: #333;
+    color: rgb(255, 255, 255);
 }

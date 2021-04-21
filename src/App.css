@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+body{
+  background-color: black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: black;
+  background: url('./assets/background.jpg');
+  height: 100vh;
+  box-shadow: inset 120px 100px 250px #050000, inset -120px -100px 250px #000000;
+}
+
+.form{
+  padding: 60px 68px 40px;
+  width: 340px;
+  height: max-content;
+}
+
+.formBG{
+  position: relative;
+  margin-top: 0rem;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 420px;
+  min-height: max-content;
+  width: max-content;
+  height: max-content;
+}
+
+h1{
   color: white;
+  text-align: left !important;
+}
+p{
+  color:  #737373;
+  text-align: left !important;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  color:white;
+  text-align: left !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2{
+  font-size: 40px;
+  font-family: impact;
+  margin-left: 40px;
+  align-self: flex-start;
+  color: #e50914;
 }
